@@ -1,13 +1,13 @@
-import Head from 'next/head';
+import Heading from '@/components/Heading';
+import styles from '../styles/MainPage.module.css';
 
 const MainPage = () => {
   return (
     <>
-      <Head>
-        <title>Tokens Board</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <main></main>
+      <Heading title={'Tokens Board'} keywords={'MainPage'} />
+      <main className={styles.main}>
+        <h1>Main Page</h1>
+      </main>
     </>
   );
 };
