@@ -7,7 +7,7 @@ import styles from '../styles/Navbar.module.scss';
 const navigation = [
   { id: 1, title: 'Main', path: '/' },
   { id: 2, title: 'Tokens', path: '/tokens' },
-  { id: 3, title: 'Contacts', path: '/contacts' },
+  { id: 3, title: 'TokenPem', path: '/tokenPem' },
 ];
 
 const Navbar = () => {
